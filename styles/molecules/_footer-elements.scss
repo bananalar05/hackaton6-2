@@ -1,0 +1,28 @@
+.footer{
+  width: 98%;
+  background-color: #316099; 
+  border-top-right-radius: 100px;
+
+  h2, h3, p, a, i {
+    color: map-get($color, cuaternary);
+  }
+
+  h3{
+    font-size: 1.2rem;
+  }
+
+  &__container{
+    padding-left: 35px;
+  }
+
+  li{
+    margin-bottom: 15px;
+  }
+
+  a{
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+

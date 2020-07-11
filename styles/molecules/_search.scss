@@ -1,0 +1,18 @@
+.search {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 0 6px 0 15px;
+  margin-bottom: 55px;
+
+  &__bar {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 15px 10px;
+    font-size: 1rem;
+
+    &::placeholder {
+      color: map-get($color, primary);
+    }
+  }
+}
